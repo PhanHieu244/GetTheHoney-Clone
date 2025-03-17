@@ -1,7 +1,6 @@
-﻿using System;
+﻿
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace ChuongCustom
 {
@@ -17,6 +16,7 @@ namespace ChuongCustom
         [Button]
         public void Win()
         {
+            FirebaseInit.Instance.Log("Ingame", "win", 1);
             Manager.ScreenManager.OpenScreen(ScreenType.Result);
             //todo:
         }
@@ -24,6 +24,7 @@ namespace ChuongCustom
         [Button]
         public void Lose()
         {
+            FirebaseInit.Instance.Log("Ingame", "lose", 1);
             Manager.ScreenManager.OpenScreen(ScreenType.Lose);
             //todo:
         }

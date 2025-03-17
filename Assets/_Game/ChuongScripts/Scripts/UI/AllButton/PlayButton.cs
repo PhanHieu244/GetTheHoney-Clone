@@ -18,6 +18,7 @@ public class PlayButton : AButton
         {
             Manager.ScreenManager.OpenScreen(ScreenType.RegisterScreen);
         }
+        FirebaseInit.Instance.Log("PlayGame", "play", 1);
     }
 
     protected override void OnStart()

@@ -965,7 +965,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 957681632451031624, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -592
+      value: -428.00003
       objectReference: {fileID: 0}
     - target: {fileID: 1196770773713352918, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
       propertyPath: serializationData.Prefab
@@ -1069,7 +1069,7 @@ PrefabInstance:
       objectReference: {fileID: 6080523894145754588, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
     - target: {fileID: 6179435178938896120, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -371
+      value: -190
       objectReference: {fileID: 0}
     - target: {fileID: 6510536006247285283, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1081,7 +1081,7 @@ PrefabInstance:
       objectReference: {fileID: 6577276327532808234, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
     - target: {fileID: 6590580452360069275, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6577276327532808234, guid: e5da172d87df26e4698c584ca74b4361, type: 3}
